@@ -1,0 +1,7 @@
+01:55:42 **** Incremental Build of configuration Debug for project II_Kolok_zd11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main11.o "..\\main11.c" 
+gcc -o II_Kolok_zd11.exe main11.o 
+
+01:55:42 Build Finished. 0 errors, 0 warnings. (took 291ms)
+

@@ -1,0 +1,7 @@
+15:20:53 **** Rebuild of configuration Debug for project PSP_Lab_8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o PSP_Lab_8.exe main.o 
+
+15:20:53 Build Finished. 0 errors, 0 warnings. (took 842ms)
+

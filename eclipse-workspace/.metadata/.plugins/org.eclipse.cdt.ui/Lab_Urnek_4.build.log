@@ -1,0 +1,5 @@
+14:38:42 **** Clean-only build of configuration Debug for project Lab_Urnek_4 ****
+rm -rf main.d Lab_Urnek_4.exe main.o 
+
+14:38:42 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

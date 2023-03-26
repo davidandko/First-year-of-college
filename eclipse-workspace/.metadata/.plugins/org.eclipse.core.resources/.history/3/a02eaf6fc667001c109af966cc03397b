@@ -1,0 +1,29 @@
+/*
+ * main1.c
+ *
+ *  Created on: Dec 23, 2021
+ *      Author: David
+ */
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+#define MAX 100
+
+int main(){
+	int i = 0,j=0;
+	char a[MAX],b[MAX],ch;
+	while((i<MAX-1) && ((ch=getchar())!='\n')){
+	a[i++] = ch;
+	a[i] = '\0';
+	}
+	printf("Vnesenata tekstualna niza e \"%s\".\n",a);
+	while((j<MAX-1) && ((ch=getchar())!='\n')){
+		b[j++] = ch;
+		b[j] = '\0';
+		}
+	printf("Vnesenata tekstualna niza e \"%s\".\n",b);
+
+
+	return 0;
+}
+

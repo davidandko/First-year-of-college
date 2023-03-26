@@ -1,0 +1,31 @@
+12:08:01 **** Rebuild of configuration Debug for project PSP_preoptovaruvanjeOperatori1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:17:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  Uchenik(char *imev = "",float prosekv = 0,int godinav = 0){
+                       ^~
+..\main.cpp: In constructor 'Paralelka::Paralelka(Uchenik*, int)':
+..\main.cpp:64:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+    ucenici = new Uchenik[brU];
+                             ^
+..\main.cpp: In copy constructor 'Paralelka::Paralelka(const Paralelka&)':
+..\main.cpp:75:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+    ucenici = new Uchenik[brU];
+                             ^
+..\main.cpp: In member function 'Paralelka& Paralelka::operator+=(Uchenik&)':
+..\main.cpp:89:37: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+    Uchenik *nova = new Uchenik[brU+1];
+                                     ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:109:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ Uchenik nizaU[3] = {{"Pero",5.0,3},{"Stojan",4.5,3},{"Ana",4.7,5}};
+                                                                  ^
+..\main.cpp:109:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\main.cpp:109:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\main.cpp:110:23: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ Uchenik U("Vera",4.3,3);
+                       ^
+g++ -o PSP_preoptovaruvanjeOperatori1.exe main.o 
+
+12:08:02 Build Finished. 0 errors, 8 warnings. (took 1s.683ms)
+

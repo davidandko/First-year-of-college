@@ -1,0 +1,18 @@
+15:43:54 **** Rebuild of configuration Debug for project PiA_Vtora_9.11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:2: warning: implicit declaration of function 'fflsuh' [-Wimplicit-function-declaration]
+  fflsuh(stdout);
+  ^~~~~~
+..\main.c: In function 'eprost':
+..\main.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o PiA_Vtora_9.11.exe main.o 
+main.o: In function `main':
+C:\Users\David\eclipse-workspace\PiA_Vtora_9.11\Debug/../main.c:22: undefined reference to `fflsuh'
+collect2.exe: error: ld returned 1 exit status
+
+15:43:54 Build Failed. 1 errors, 2 warnings. (took 467ms)
+

@@ -1,0 +1,29 @@
+/*
+ * main8.c
+ *
+ *  Created on: Jan 17, 2022
+ *      Author: David
+ */
+//termin 2 grupa 2 zd1
+#include<stdio.h>
+#define MAX 200
+int main(){
+	char niza[MAX],podniza[MAX],*pomosna,c,br=0;
+	printf("Vnesete go celosniot tekst: \n");
+	fflush(stdout);
+	gets(niza);
+	printf("Vnesete podniza koja ke se ispituva:\n");
+	fflush(stdout);
+	gets(podniza);
+	while((c=getc(niza)) != '\0'){
+
+		while(c != ' '){
+			*pomosna=c;
+			if(pomosna == podniza){
+				br++;
+			}
+		}
+	}
+	printf("%d",br);
+	return 0;
+}

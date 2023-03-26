@@ -1,0 +1,47 @@
+/*
+ * main2.c
+ *
+ *  Created on: Dec 12, 2021
+ *      Author: David
+ */
+#include<stdio.h>
+#include<math.h>
+#define MAX 100
+int prost(int n){
+	int i;
+for(i=2;i<sqrt(n);i++){
+	if(n%i==0){
+		return 0; //brojot e slozen
+	}
+	else{
+		return 1; //brojot e prost
+	}
+}
+}
+int main(){	int i,j,pom,a[MAX],b[MAX],n;
+		printf("Vnesete golemina na nizata\n");
+		fflush(stdout);
+
+		scanf("%d",&n);
+
+		printf("Vnesuvajte elementi vo nizata\n");
+		fflush(stdout);
+
+		for(i=0;i<n;i++){
+			scanf("%d",&a[i]);
+		}
+		for(i=0;i<n;i++){
+			if((prost(a[i]) == 1)&&(prost(a[i+1] == 1))){
+				pom=a[i];
+				a[i]=a[i+1];
+				a[i+1]=pom;
+				i++;
+				printf("%d %d",a[i+1],a[i]);
+			}
+
+		}
+
+return 0;
+}
+
+

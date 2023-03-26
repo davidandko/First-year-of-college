@@ -1,0 +1,7 @@
+23:24:29 **** Rebuild of configuration Debug for project Lab_Urnek_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Lab_Urnek_3.exe main.o 
+
+23:24:29 Build Finished. 0 errors, 0 warnings. (took 597ms)
+

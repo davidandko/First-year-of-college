@@ -1,0 +1,23 @@
+18:34:19 **** Rebuild of configuration Debug for project PSP_Prva_22.2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:15: error: could not convert '& k[0]' from 'Kompleksen*' to 'Kompleksen'
+  rez = soberi(&k[0],&k[1]);
+               ^~~~~
+..\main.cpp:31:24: error: cannot convert 'Kompleksen' to 'Kompleksen*' for argument '1' to 'Kompleksen odzemi(Kompleksen*, Kompleksen*)'
+  rez = odzemi(k[0],k[1]);
+                        ^
+..\main.cpp: In function 'void mnozi(Kompleksen, Kompleksen, Kompleksen*)':
+..\main.cpp:57:4: error: request for member 'real' in 'c', which is of pointer type 'Kompleksen*' (maybe you meant to use '->' ?)
+  c.real = a.real * b.real + a.imag * b.imag;
+    ^~~~
+..\main.cpp:59:4: error: request for member 'real' in 'c', which is of pointer type 'Kompleksen*' (maybe you meant to use '->' ?)
+  c.real = a.real * b.real - a.imag * b.imag;
+    ^~~~
+..\main.cpp:60:9: error: return-statement with a value, in function returning 'void' [-fpermissive]
+  return c;
+         ^
+
+18:34:20 Build Failed. 5 errors, 0 warnings. (took 1s.100ms)
+

@@ -1,0 +1,7 @@
+14:44:07 **** Incremental Build of configuration Debug for project PSP_Lab9_cetvrtok ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o PSP_Lab9_cetvrtok.exe main.o 
+
+14:44:09 Build Finished. 0 errors, 0 warnings. (took 1s.511ms)
+

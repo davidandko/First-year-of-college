@@ -1,0 +1,22 @@
+/*
+ * delitel_cifri.c
+ *
+ *  Created on: Nov 14, 2021
+ *      Author: David
+ */
+#include<stdio.h>
+int proverka(int n){
+	if(n==0){
+		return 0;
+	}
+	if((proverka(n)%10)%(proverka(n/10)%10)==0){
+		return 1;
+	}
+}
+int main(){
+	int n;
+	printf("Vnesete broj: \n");
+	fflush(stdout);
+	scanf("%d",&n);
+	proverka(n);
+}

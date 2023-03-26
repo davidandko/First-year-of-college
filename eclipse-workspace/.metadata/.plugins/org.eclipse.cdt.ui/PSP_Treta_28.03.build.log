@@ -1,0 +1,7 @@
+13:53:43 **** Rebuild of configuration Debug for project PSP_Treta_28.03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o PSP_Treta_28.03.exe main.o 
+
+13:53:47 Build Finished. 0 errors, 0 warnings. (took 3s.406ms)
+

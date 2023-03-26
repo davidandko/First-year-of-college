@@ -1,0 +1,14 @@
+15:29:08 **** Incremental Build of configuration Debug for project PiA_Prva_9.11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o cetiricifri_main.o "..\\cetiricifri_main.c" 
+..\cetiricifri_main.c: In function 'zbir':
+..\cetiricifri_main.c:9:16: warning: variable 'zbir' set but not used [-Wunused-but-set-variable]
+  int prv, vtor,zbir;
+                ^~~~
+..\cetiricifri_main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o PiA_Prva_9.11.exe cetiricifri_main.o 
+
+15:29:08 Build Finished. 0 errors, 2 warnings. (took 261ms)
+

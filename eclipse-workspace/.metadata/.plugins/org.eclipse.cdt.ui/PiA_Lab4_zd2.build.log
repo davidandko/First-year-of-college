@@ -1,0 +1,7 @@
+02:41:37 **** Rebuild of configuration Debug for project PiA_Lab4_zd2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o pogolem_od.o "..\\pogolem_od.c" 
+gcc -o PiA_Lab4_zd2.exe pogolem_od.o 
+
+02:41:38 Build Finished. 0 errors, 0 warnings. (took 845ms)
+

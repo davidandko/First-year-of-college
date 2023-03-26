@@ -1,0 +1,7 @@
+15:34:47 **** Incremental Build of configuration Debug for project PSP_II_Kolok_11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o PSP_II_Kolok_11.exe main.o 
+
+15:34:48 Build Finished. 0 errors, 0 warnings. (took 590ms)
+

@@ -1,0 +1,17 @@
+19:54:07 **** Incremental Build of configuration Debug for project LOTO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o lotomain.o "..\\lotomain.cpp" 
+g++ -o LOTO.exe lotomain.o 
+Info: Nothing to build for LOTO
+Info: Nothing to build for LOTO
+21:00:18 **** Rebuild of configuration Debug for project ProverkaCPP ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainprov.o "..\\mainprov.cpp" 
+g++ -o ProverkaCPP.exe mainprov.o 
+Info: Nothing to build for ProverkaCPP
+Info: Nothing to build for ProverkaCPP
+16:31:57 **** Rebuild of configuration Debug for project LOTO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o lotomain.o "..\\lotomain.cpp" 
+g++ -o LOTO.exe lotomain.o 
+Info: Nothing to build for LOTO

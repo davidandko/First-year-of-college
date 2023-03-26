@@ -1,0 +1,8 @@
+23:52:30 **** Incremental Build of configuration Debug for project PiA_Bonus_zd ****
+Info: Internal Builder is used for build
+gcc -o PiA_Bonus_zd.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PiA_Bonus_zd.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+23:52:30 Build Failed. 1 errors, 0 warnings. (took 149ms)
+

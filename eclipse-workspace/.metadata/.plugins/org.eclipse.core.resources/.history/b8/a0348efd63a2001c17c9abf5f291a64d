@@ -1,0 +1,36 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 12, 2022
+ *      Author: David
+ */
+
+#include<iostream>
+#include<string>
+struct Restoran{
+	char ime[];
+	char lokacija[];
+	int promet;
+	int brVraboteni;
+
+	};
+struct Lanec{
+		char ime[];
+		int brRestorani;
+		Restoran restorani[10];
+	};
+void init(Lanec *lan){
+	cout<<"0 za Lanec ; 1 za restoran"<<endl;
+}
+
+
+
+
+using namespace std;
+int main(){
+
+
+
+}
+
+
