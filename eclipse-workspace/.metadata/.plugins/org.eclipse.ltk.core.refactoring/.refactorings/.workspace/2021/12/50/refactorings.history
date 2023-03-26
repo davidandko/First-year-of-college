@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PiA_Lab6_zd2&apos; to &apos;PiA_Lab6_zd1&apos;" description="Rename resource &apos;PiA_Lab6_zd2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PiA_Lab6_zd2" name="PiA_Lab6_zd1" stamp="1638994737039" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;PiA_Lab6_zd1&apos;" deleteContents="true" description="Delete resource &apos;PiA_Lab6_zd1&apos;" element1="/PiA_Lab6_zd1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1638996976422"/>
-</session>

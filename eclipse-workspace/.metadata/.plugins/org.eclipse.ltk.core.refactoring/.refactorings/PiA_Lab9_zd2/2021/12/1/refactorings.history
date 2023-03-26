@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;PiA_Lab9_zd2/izlezen.txt&apos; to &apos;izleznovlezna.txt&apos;" description="Rename resource &apos;izlezen.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="izlezen.txt" name="izleznovlezna.txt" stamp="1640777077993" updateReferences="true"/>
-</session>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;PiA_Vtora_2.11/switch2_main.].c&apos; to &apos;switch2_main.c&apos;" description="Rename resource &apos;switch2_main.].c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="switch2_main.].c" name="switch2_main.c" stamp="1635866440414" updateReferences="true"/>
-</session>

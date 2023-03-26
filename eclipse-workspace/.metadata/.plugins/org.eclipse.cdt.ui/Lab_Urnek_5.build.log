@@ -1,7 +1,0 @@
-02:47:44 **** Incremental Build of configuration Debug for project Lab_Urnek_5 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Lab_Urnek_5.exe main.o 
-
-02:47:44 Build Finished. 0 errors, 0 warnings. (took 607ms)
-

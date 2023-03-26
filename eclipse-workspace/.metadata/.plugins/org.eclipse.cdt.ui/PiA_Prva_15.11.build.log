@@ -1,7 +1,0 @@
-17:34:30 **** Incremental Build of configuration Debug for project PiA_Prva_15.11 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o PiA_Prva_15.11.exe main.o 
-
-17:34:31 Build Finished. 0 errors, 0 warnings. (took 270ms)
-

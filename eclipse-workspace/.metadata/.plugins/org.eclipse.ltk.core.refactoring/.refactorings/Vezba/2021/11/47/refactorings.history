@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Vezba/n_broevi.c&apos; to &apos;koordinaten_sistem.c&apos;" description="Rename resource &apos;n_broevi.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="n_broevi.c" name="koordinaten_sistem.c" stamp="1637107967236" updateReferences="true"/>
-</session>

@@ -1,7 +1,0 @@
-20:48:04 **** Incremental Build of configuration Debug for project PiA_Cetvrta_30.11 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o cetvrta.o "..\\cetvrta.c" 
-gcc -o PiA_Cetvrta_30.11.exe cetvrta.o 
-
-20:48:05 Build Finished. 0 errors, 0 warnings. (took 464ms)
-

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;PSP_Prva_21.03/main1.c&apos;" deleteContents="false" description="Delete resource &apos;PSP_Prva_21.03/main1.c&apos;" element1="/PSP_Prva_21.03/main1.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1647861314820"/>
-</session>

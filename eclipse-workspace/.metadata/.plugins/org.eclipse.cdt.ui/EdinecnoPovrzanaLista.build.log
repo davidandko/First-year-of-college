@@ -1,7 +1,0 @@
-21:55:02 **** Incremental Build of configuration Debug for project EdinecnoPovrzanaLista ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o EdinecnoPovrzanaLista.exe main.o 
-
-21:55:02 Build Finished. 0 errors, 0 warnings. (took 490ms)
-

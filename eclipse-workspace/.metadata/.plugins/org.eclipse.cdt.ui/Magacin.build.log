@@ -1,6 +1,0 @@
-20:49:48 **** Incremental Build of configuration Debug for project Magacin ****
-Info: Internal Builder is used for build
-g++ -o Magacin.exe main.o 
-
-20:49:48 Build Finished. 0 errors, 0 warnings. (took 243ms)
-

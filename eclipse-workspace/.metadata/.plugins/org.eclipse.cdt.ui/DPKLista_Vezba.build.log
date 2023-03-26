@@ -1,7 +1,0 @@
-02:04:58 **** Rebuild of configuration Debug for project DPKLista_Vezba ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o maindpkvezba.o "..\\maindpkvezba.cpp" 
-g++ -o DPKLista_Vezba.exe maindpkvezba.o 
-
-02:04:59 Build Finished. 0 errors, 0 warnings. (took 421ms)
-

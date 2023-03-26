@@ -1,7 +1,0 @@
-13:17:15 **** Rebuild of configuration Debug for project Kolok_zd7 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Kolok_zd7.exe main.o 
-
-13:17:16 Build Finished. 0 errors, 0 warnings. (took 268ms)
-
